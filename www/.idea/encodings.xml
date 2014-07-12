@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/data/data.txt" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/inc/class/Paginator.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/inc/class/captcha.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/inc/class/getFormData.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/inc/class/getTample.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/inc/class/messageData.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/inc/class/pageData.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/inc/class/validForm.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/index.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/tpl/form.html" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/tpl/message.html" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/tpl/page.html" charset="windows-1251" />
+  </component>
+</project>
+

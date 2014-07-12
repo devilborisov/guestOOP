@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel='stylesheet' href='../css/bootstrap.css' />
+    <link rel='stylesheet' href='../css/style.css' />
+</head>
+<form class="form-horizontal" method="post">
+    <fieldset>
+
+        <!-- Form Name -->
+        <legend>Заполните информацию о себе</legend>
+
+        <!-- Text input-->
+        <div class="control-group">
+            <label class="control-label" for="userName">Введите имя:</label>
+            <div class="controls">
+                <input id="userName" name="userName" type="text" placeholder="Иван" class="input-xlarge" value="{{userName}}" >
+                <p class="help-block" data-name="userName"></p>
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="control-group">
+            <label class="control-label" for="userEmail">Введите email:</label>
+            <div class="controls">
+                <input id="userEmail" name="userEmail" type="text" placeholder="example@gmail.com" class="input-xlarge" value="{{userEmail}}">
+                <p class="help-block" data-name="userEmail"></p>
+            </div>
+        </div>
+
+        <!-- Textarea -->
+        <div class="control-group">
+            <label class="control-label" for="userMsg">Введите текст сообщения:</label>
+            <div class="controls">
+                <textarea id="userMsg" name="userMsg" placeholder="Ваш текст" value="" >{{userMsg}}</textarea>
+                <p class="help-block" data-name="userMsg"></p>
+            </div>
+        </div>
+
+        <!-- Prepended text-->
+        <div class="control-group">
+            <label class="control-label" for="inputCapcha">Введите капчу:</label>
+            <div class="controls">
+                <div class="input-prepend">
+                    <span class="add-on">{{CAPCHA}} =</span>
+                    <input id="inputCapcha" name="inputCapcha" class="input-large" placeholder="капча" type="text">
+                </div>
+                <p class="help-block" data-name="inputCapcha"></p>
+            </div>
+        </div>
+
+        <!-- Button -->
+        <div class="control-group">
+            <label class="control-label" for="submit"></label>
+            <div class="controls">
+                <button id="submit" name="submit" class="btn btn-default">Отправить</button>
+            </div>
+        </div>
+
+    </fieldset>
+</form>
